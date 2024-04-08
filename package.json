@@ -1,0 +1,30 @@
+{
+  "name": "api-template",
+  "version": "1.0.0",
+  "description": "Template para APIs em node, usando express",
+  "main": "index.js",
+  "scripts": {
+    "run": "node --env-file=.env app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmaraujo/node-api-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmaraujo/node-api-template/issues"
+  },
+  "homepage": "https://github.com/bmaraujo/node-api-template#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.549.0",
+    "@aws-sdk/lib-dynamodb": "^3.549.0",
+    "aws-sdk": "^2.1594.0",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-status-codes": "^2.3.0"
+  }
+}
